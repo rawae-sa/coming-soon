@@ -24,12 +24,12 @@ export default function Home() {
 
       <div className=" flex flex-col items-center h-dvh justify-center gap-20 p-4 ">
         <video
-          className="h-60 w-60 filter saturate-150 mix-blend-lighten brightness-200"
+          className="h-60 w-60 filter saturate-90 mix-blend-lighten brightness-100"
           autoPlay
           muted
           loop
         >
-          <source src="rawaeAscii.webm" type="video/webm" className="z-50" />
+          <source src="rawaeAscii2.webm" type="video/webm" className="z-50" />
         </video>
 
         <p

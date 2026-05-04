@@ -20,6 +20,10 @@
   }
 }
 
+::selection {
+  color: greenyellow;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
