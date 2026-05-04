@@ -9,26 +9,32 @@ export default function Home() {
         className=""
       >
         <ShapeGrid
-          className="opacity-80 z-10"
+          className="opacity-80 z-1"
           speed={0.1}
           squareSize={80}
           direction="diagonal" // up, down, left, right, diagonal
-          borderColor="#050505"
-          hoverFillColor="#222"
+          borderColor="#1B1B1B"
+          hoverFillColor="#556600"
           shape="square" // square, hexagon, circle, triangle
           hoverTrailAmount={0} // number of trailing hovered shapes (0 = no trail)
           hoverColor="#222222"
           size={38}
         />
       </div>
-      <div className=" flex flex-col items-center h-dvh justify-center gap-20 p-4 z-50">
-        <video className="h-60 w-60 filter saturate-150" autoPlay muted loop>
-          <source src="rawaeAscii.webm" type="video/webm" />
+
+      <div className=" flex flex-col items-center h-dvh justify-center gap-20 p-4 ">
+        <video
+          className="h-60 w-60 filter saturate-150 mix-blend-lighten brightness-200"
+          autoPlay
+          muted
+          loop
+        >
+          <source src="rawaeAscii.webm" type="video/webm" className="z-50" />
         </video>
 
         <p
           dir="rtl"
-          className="text-3xl max-w-lg text-center leading-relaxed font-medium text-lime-100"
+          className="text-3xl max-w-lg text-center leading-relaxed font-medium text-lime-100 z-50"
         >
           نحن نبني مساحة تُصنع فيها اللحظات الهادفة والتجارب التي لا تُنسى...
         </p>
