@@ -6,33 +6,14 @@ export default function Home() {
     <section className="w-full h-full font-primary">
       <div
         style={{ width: "100%", height: "100%", position: "absolute" }}
-        className="z-0 opacity-30 "
+        className=""
       >
-        {/* <PixelBlast
-          variant="square"
-          pixelSize={10}
-          color="#667434"
-          patternScale={2}
-          patternDensity={1}
-          pixelSizeJitter={0}
-          enableRipples
-          rippleSpeed={0.4}
-          rippleThickness={0.12}
-          rippleIntensityScale={1.5}
-          liquid={false}
-          liquidStrength={0.12}
-          liquidRadius={1.2}
-          liquidWobbleSpeed={5}
-          speed={0.1}
-          edgeFade={0.25}
-          transparent
-        />*/}
-
         <ShapeGrid
+          className="opacity-80 z-10"
           speed={0.1}
-          squareSize={40}
+          squareSize={80}
           direction="diagonal" // up, down, left, right, diagonal
-          borderColor="#2F293A"
+          borderColor="#050505"
           hoverFillColor="#222"
           shape="square" // square, hexagon, circle, triangle
           hoverTrailAmount={0} // number of trailing hovered shapes (0 = no trail)
@@ -47,7 +28,7 @@ export default function Home() {
 
         <p
           dir="rtl"
-          className="text-3xl max-w-lg text-center leading-relaxed font-medium text-lime-100/80"
+          className="text-3xl max-w-lg text-center leading-relaxed font-medium text-lime-100"
         >
           نحن نبني مساحة تُصنع فيها اللحظات الهادفة والتجارب التي لا تُنسى...
         </p>
