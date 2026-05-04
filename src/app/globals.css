@@ -21,7 +21,9 @@
 }
 
 ::selection {
-  color: greenyellow;
+  background: #b8e349;
+  background-blend-mode: darken;
+  color: black;
 }
 
 body {
